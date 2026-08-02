@@ -1,8 +1,23 @@
 aid: the-league
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-league.png
 name: The League
-description: 'The League is a company surfaced as a portfolio company of cowboy-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'The League is an American social and dating mobile application founded in 2014 by Amanda
+  Bradford and launched in 2015. It positions itself as a selective, career-oriented dating community
+  ("Date. Intelligently."), using an application/waitlist model and LinkedIn/Facebook-based verification
+  to curate its membership. The League was acquired by Match Group in 2022 and operates as a consumer
+  iOS/Android app. It is a portfolio company of Cowboy Ventures. As a consumer mobile app it publishes
+  no public developer program, API documentation, or partner API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/the-league/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Dating
+- Social
+- Mobile Application
+- Match Group
+- Cowboy Ventures
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/the-league-domain-security.yml
 - type: Website
   url: https://www.theleague.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
