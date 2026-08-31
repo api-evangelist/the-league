@@ -54,6 +54,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/match-group/
+  name: Match Group
+  x-relationship: acquired
+  x-evidence: "The League was acquired by Match Group in 2022 and operates as a consumer iOS/Android app."
 - type: DomainSecurity
   url: security/the-league-domain-security.yml
 - type: Website
